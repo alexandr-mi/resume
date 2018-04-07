@@ -4,8 +4,6 @@
     <list default="true" id="81a399a9-fe6a-4087-bf8a-12ff6c7cbfc2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/_modules/portfolio/data.jade" afterPath="$PROJECT_DIR$/src/_modules/portfolio/data.jade" />
-      <change beforePath="$PROJECT_DIR$/src/_modules/portfolio/mixins.jade" afterPath="$PROJECT_DIR$/src/_modules/portfolio/mixins.jade" />
-      <change beforePath="$PROJECT_DIR$/src/_modules/portfolio/portfolio.scss" afterPath="$PROJECT_DIR$/src/_modules/portfolio/portfolio.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -72,8 +70,8 @@
       <file leaf-file-name="data.jade" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/_modules/portfolio/data.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            <state relative-caret-position="253">
+              <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -197,7 +195,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="810" />
+    <option name="x" value="189" />
     <option name="width" value="1110" />
     <option name="height" value="1080" />
   </component>
@@ -228,19 +226,6 @@
               <item name="Portfolio_2.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="Portfolio_2.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Portfolio_2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Portfolio_2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Portfolio_2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Portfolio_2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Portfolio_2.0" type="b2602c69:ProjectViewProjectNode" />
@@ -307,15 +292,15 @@
       <workItem from="1522232351581" duration="16888000" />
       <workItem from="1522300022383" duration="28858000" />
       <workItem from="1522391150489" duration="4713000" />
-      <workItem from="1523077210453" duration="7096000" />
+      <workItem from="1523077210453" duration="7938000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101714000" />
+    <option name="totallyTimeSpent" value="102556000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="810" y="0" width="1110" height="1080" extended-state="0" />
+    <frame x="189" y="0" width="1110" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30810812" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -693,8 +678,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_modules/portfolio/data.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="253">
+          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
           <folding />
         </state>
       </provider>
