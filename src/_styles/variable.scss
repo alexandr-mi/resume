@@ -1,0 +1,80 @@
+/*Font*/
+$font-stack: 'Oswald', sans-serif;
+
+$fs-text-basic: 16px;
+$fs-icon: 24px;
+$fs-date: 18px;
+$fs-title: 36px;
+
+$fw-title: 200;
+$fw-text-light: 300;
+$fw-text-regular: 400;
+$fw-text-bolt: 500;
+
+$lh-date: 28px;
+
+
+/*Color*/
+$color-bg: #181818;
+$color-main: white;
+$color-p2: #f1f1f1;
+$color-p3: #dedede;
+$color-black: #333333;
+$color-title: #ce9521;
+$color-bg-date: #ffaa05;
+
+/*Circle progress bar*/
+$color-circle-back: rgba(255,0,0,0.8);
+$color-circle-front: $color-bg-date;
+$circle-radius: 37.5;
+$circle-length: 37.5*3.14*2;
+
+%title {
+  font-size: $fs-title;
+  font-weight: $fw-title;
+  color: $color-title;
+  margin: 20px 0;
+}
+
+%p1 {
+  font-size: $fs-text-basic;
+  font-weight: $fw-text-bolt;
+  color: $color-main;
+}
+
+%p2 {
+  font-size: $fs-text-basic;
+  font-weight: $fw-text-regular;
+  color: $color-p2;
+}
+
+%p3 {
+  font-size: $fs-text-basic;
+  font-weight: $fw-text-light;
+  color: $color-p3;
+}
+
+%date {
+  font-size: $fs-date;
+  line-height: $lh-date;
+  user-select: none;
+  position: relative;
+  display: inline-block;
+  min-width: 65px;
+  height: $lh-date;
+  background: $color-bg-date;
+  padding-left: 5px;
+  color: $color-black;
+  text-align: left;
+  margin-top: 12px;
+  margin-right: 25px;
+  &::after {
+    content: '';
+    top: 0;
+    right: -$lh-date;
+    position: absolute;
+    border-color:  transparent transparent transparent $color-bg-date;
+    border-style: solid;
+    border-width: $lh-date/2;
+  }
+}

@@ -1,0 +1,16 @@
+.person {
+  position: relative;
+  top: -100px;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__photo {
+    width: 60%;
+    margin-bottom: 40px;
+  }
+  &__about {
+    width: 90%;
+  }
+}

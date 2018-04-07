@@ -1,0 +1,59 @@
+.contact {
+  &__container {
+    padding-left: 100px;
+  }
+  &__item {
+    align-items: baseline;
+    margin: 10px 0;
+    width: 100%;
+  }
+  &__icon {
+    margin-right: 10px;
+  }
+  &__icon-hh {
+    font-weight: 700;
+  }
+  .contact__list-extra {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  &__item-extra {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    padding: 10px 0;
+    text-align: center;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 5px;
+    transition: background 0.5s;
+  }
+  &__description {
+    transition: color 0.5s;
+  }
+  &__description:hover {
+    color: $color-bg-date;
+  }
+  &__description:active {
+    color: rgba($color-bg-date, 0.3);
+  }
+  &__item-extra:hover {
+    background: $color-bg-date;
+  }
+  &__item-extra:active {
+    background: rgba($color-bg-date, 0.3);
+  }
+  .contact__description-extra {
+    text-decoration: underline;
+  }
+  &__item-extra .icon {
+    margin: 0;
+  }
+}
+

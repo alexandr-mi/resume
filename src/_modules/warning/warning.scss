@@ -1,0 +1,15 @@
+.warning {
+  position: relative;
+  width: 100%;
+  display: none;
+  &__message {
+    position: absolute;
+    right: 30px;
+    top: -50px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+
+    background: rgba(255, 0, 0, 0.5);
+  }
+}

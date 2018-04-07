@@ -1,0 +1,16 @@
+.passions__list {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  flex-wrap: wrap;
+}
+.passion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40px;
+  margin: 10px;
+  &__icon {
+    margin-bottom: 10px;
+  }
+}

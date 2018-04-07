@@ -1,0 +1,14 @@
+.svg-container {
+  z-index: -1;
+  height: 300px;
+  position: relative;
+  &__svg {
+    top: -380px;
+    left: 50px;
+    position: absolute;
+    width: 910px;
+    & #phone {
+      background: red;
+    }
+  }
+}

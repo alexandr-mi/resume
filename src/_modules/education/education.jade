@@ -1,0 +1,9 @@
+include data
+include mixins
+
+.education
+  .education__container.container
+    .education__title.title EDUCATION
+    .education__list
+      each educationPlace in educationData
+        +getEducationPlace( educationPlace )

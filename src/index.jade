@@ -1,0 +1,20 @@
+extends _layouts/base
+
+
+block content
+  include _modules/warning/warning
+  .resume__wrap
+    include _modules/header/header
+    .resume__wrap-top
+      include _modules/worck-experience/worck-experience
+      include _modules/person/person
+      include _modules/contact/contact
+    include _modules/svg-container/svg-container
+    .resume__wrap-bottom
+      .resume__wrap-combine
+        include _modules/passions/passions
+        include _modules/languages/languages
+      include _modules/education/education
+      include _modules/skills/skills
+    include _modules/footer/footer
+

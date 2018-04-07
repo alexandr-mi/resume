@@ -1,0 +1,19 @@
+-
+  var portfolioList = [
+    'lambdaApp',
+    'lambdaPhotography',
+    'vespa',
+    'fedor',
+  ]
+
+mixin getPortfolioList( portfolioList )
+  for item in portfolioList
+    .portfolio__item
+      a.portfolio__link(href='./pages/#{item}/index.html' target="_blank")
+        img.portfolio__img(src='./pages/#{item}/img.jpg' alt='img_page')
+
+.portfolio
+  .portfolio__container.container
+    .portfolio__title Portfolio
+    .portfolio__list
+      +getPortfolioList( portfolioList )

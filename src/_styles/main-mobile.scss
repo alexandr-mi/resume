@@ -1,0 +1,37 @@
+// Normalize Styles
+@import 'node_modules/normalize.css/normalize';
+@import './global-mobile.scss';
+
+
+// Import Modules
+@import '../_modules/warning/warning';
+@import '../_modules/header/header';
+@import '../_modules/worck-experience/worck-experience';
+@import '../_modules/person/person';
+@import '../_modules/contact/contact';
+@import '../_modules/svg-container/svg-container';
+@import '../_modules/passions/passions';
+@import '../_modules/languages/languages';
+@import '../_modules/education/education';
+@import '../_modules/skills/skills';
+@import '../_modules/footer/footer';
+
+
+// mobile version correction
+.contact__container {
+  padding: 0;
+}
+
+.software-skills__skill {
+  margin-right: 20px;
+}
+
+// Box sizing partial styles:
+// Apply a natural box layout model to all elements
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}

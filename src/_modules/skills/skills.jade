@@ -1,0 +1,116 @@
+-
+  var skills = [
+       {
+         name: "HTML",
+         title: "HTML",
+         progress: "94",
+         involve: [
+           {
+             name: "HTML5",
+             progress: "95"
+           },{
+             name: "JADE",
+             progress: "80"
+           },{
+             name: "BEM",
+             progress: "85"
+           },{
+             name: "Bootstrap",
+             progress: "70"
+           }
+         ]
+       },{
+          name: "CSS",
+          title: "CSS",
+          progress: "92",
+          involve: [
+              {
+                name: "CSS3",
+                progress: "95"
+              },{
+                name: "SASS",
+                progress: "84"
+              }
+            ]
+        },{
+          name: "JS",
+          title: "JavaScript",
+          progress: "85",
+          involve: [
+              {
+                name: "ES5/7",
+                progress: "82"
+              },{
+                name: "JQuery",
+                progress: "80"
+              },{
+                name: "Babel",
+                progress: "90"
+              },{
+                name: "React",
+                progress: "70"
+              },{
+                name: "Flux",
+                progress: "80"
+              },{
+                name: "Redux",
+                progress: "80"
+              },{
+                name: "NPM",
+                progress: "90"
+              },{
+                name: "Gulp",
+                progress: "75"
+              },{
+                name: "Webpack",
+                progress: "70"
+              }
+            ]
+          },{
+            name: "Ps",
+            progress: "94",
+            title: "Photoshop"
+          },{
+            name: "Ai",
+            progress: "70",
+            title: "Illustrator"
+          },{
+            name: "WS",
+            progress: "90",
+            title: "WebStorm"
+          }
+     ];
+
+mixin getCircleProgressBar( skill )
+    if skill.involve
+      .software-skills__dotHaveInvolve
+    .circle-progress-bar__name= skill.name
+    svg.software-skills__circle-progress-bar.circle-progress-bar(mlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    x="0px" y="0px" viewBox="0 0 80 80" xml:space="preserve")
+      circle.circle-progress-bar__back( fill = "none" cx="40" cy="40")
+      circle.circle-progress-bar__front( fill = "none" cx="40" cy="40" data-progress = '#{skill.progress}')
+
+mixin getLineProgressBar( skill )
+  .line-progress-bar__container
+    .line-progress-bar__name= skill.name
+    svg.line-progress-bar__svg(mlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 300 20" xml:space="preserve")
+      line.line-progress-bar__back( x1="0%" y1="50%" x2="100%" y2="50%")
+      line.line-progress-bar__front( x1="0%" y1="50%" x2="100%" y2="50%" data-progress = '#{skill.progress}')
+
+mixin getProgress( skills )
+  for skill in skills
+    .software-skills__skill(data-title= skill.title)
+      +getCircleProgressBar( skill )
+      if skill.involve
+        .software-skills__involve.hidden
+          for involveSkill in skill.involve
+            +getLineProgressBar( involveSkill )
+
+
+.software-skills
+  .software-skills__container.container
+    .software-skills__title.title SKILLS
+    .software-skills__list
+        +getProgress( skills )
+

@@ -1,0 +1,115 @@
+.software-skills {
+  &__list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &__skill {
+    position: relative;
+    width: 80px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    &:hover::after {
+      content: attr(data-title);
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      left: 0;
+      bottom: -17px;
+      color: $color-circle-front;
+    }
+    &:hover {
+      .software-skills__dotHaveInvolve  {
+        top: 75px;
+      }
+    }
+  }
+  &__dotHaveInvolve {
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    height: 6px;
+    width: 6px;
+    border-right: 2px solid $color-circle-front;
+    border-bottom: 2px solid $color-circle-front;
+    transform: rotate(45deg);
+    transition: top 0.5s;
+  }
+  &__involve {
+    position: relative;
+    max-height: 600px;
+    overflow: hidden;
+    transition: max-height 1s;
+    &.hidden{
+      max-height: 0;
+    }
+  }
+}
+
+.circle-progress-bar {
+  &__name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 80px;
+    line-height: 80px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: $fw-text-regular;
+    user-select: none;
+  }
+
+  &__back, &__front {
+    r: $circle-radius;
+    stroke-width : 4px;
+    stroke-dasharray: $circle-length;
+  }
+
+  &__back {
+    stroke: $color-circle-back;
+  }
+
+  &__front {
+    stroke: $color-circle-front;
+    transform-origin: center center;
+    transform: rotate(-90deg);
+    stroke-dashoffset: $circle-length;
+    transition: stroke-dashoffset 2s;
+  }
+}
+
+.line-progress-bar {
+  margin-top: 10px;
+  &__container {
+    margin-top: 10px;
+
+  }
+  &__name {
+    user-select: none;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  &__svg{
+    width: 100%;
+  }
+
+  &__back, &__front {
+    stroke-width : 20px;
+    stroke-dasharray: 300;
+    stroke-dashoffset: 300;
+  }
+
+  &__back {
+
+    stroke: $color-circle-back;
+    stroke-dashoffset: 0;
+  }
+
+  &__front {
+    stroke: $color-circle-front;
+    transition: stroke-dashoffset 2s;
+  }
+}
+

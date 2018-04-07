@@ -1,0 +1,51 @@
+@import 'variable.scss';
+
+
+body {
+  font-family: $font-stack;
+  color: $color-main;
+  background: $color-bg;
+};
+
+.resume__wrap {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 15px;
+}
+.work-place, .contact__item, .study-place {
+  display: flex;
+  align-items: flex-start;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin-bottom: 60px;
+}
+
+.title {
+  @extend %title
+}
+
+.p1 {
+  @extend %p1
+}
+.p2 {
+  @extend %p2
+}
+.p3 {
+  @extend %p3
+}
+
+.date {
+  @extend %date
+}
+
+.icon {
+  font-size: $fs-icon;
+  width: 30px;
+  text-align: center;
+};
