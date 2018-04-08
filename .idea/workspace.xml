@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="81a399a9-fe6a-4087-bf8a-12ff6c7cbfc2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/_modules/contact/contact.jade" afterPath="$PROJECT_DIR$/src/_modules/contact/contact.jade" />
-      <change beforePath="$PROJECT_DIR$/src/_modules/contact/contact.scss" afterPath="$PROJECT_DIR$/src/_modules/contact/contact.scss" />
-      <change beforePath="$PROJECT_DIR$/src/_modules/portfolio/data.jade" afterPath="$PROJECT_DIR$/src/_modules/portfolio/data.jade" />
-      <change beforePath="$PROJECT_DIR$/src/_modules/portfolio/portfolio.scss" afterPath="$PROJECT_DIR$/src/_modules/portfolio/portfolio.scss" />
+      <change beforePath="$PROJECT_DIR$/src/_modules/svg-container/svg-container.jade" afterPath="$PROJECT_DIR$/src/_modules/svg-container/svg-container.jade" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +20,9 @@
       <file leaf-file-name="svg-container.jade" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/_modules/svg-container/svg-container.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="56" column="79" lean-forward="true" selection-start-line="56" selection-start-column="79" selection-end-line="56" selection-end-column="81" />
+            <state relative-caret-position="423">
+              <caret line="55" column="96" lean-forward="false" selection-start-line="55" selection-start-column="96" selection-end-line="55" selection-end-column="96" />
+              <caret line="55" column="108" lean-forward="false" selection-start-line="55" selection-start-column="108" selection-end-line="55" selection-end-column="108" />
               <folding />
             </state>
           </provider>
@@ -305,12 +303,12 @@
       <workItem from="1522300022383" duration="28858000" />
       <workItem from="1522391150489" duration="4713000" />
       <workItem from="1523077210453" duration="8225000" />
-      <workItem from="1523182819445" duration="986000" />
+      <workItem from="1523182819445" duration="1199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103829000" />
+    <option name="totallyTimeSpent" value="104042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="14" width="1110" height="965" extended-state="0" />
@@ -676,8 +674,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_modules/svg-container/svg-container.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="56" column="79" lean-forward="true" selection-start-line="56" selection-start-column="79" selection-end-line="56" selection-end-column="81" />
+        <state relative-caret-position="423">
+          <caret line="55" column="96" lean-forward="false" selection-start-line="55" selection-start-column="96" selection-end-line="55" selection-end-column="96" />
+          <caret line="55" column="108" lean-forward="false" selection-start-line="55" selection-start-column="108" selection-end-line="55" selection-end-column="108" />
           <folding />
         </state>
       </provider>
