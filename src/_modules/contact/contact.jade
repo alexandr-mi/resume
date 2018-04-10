@@ -2,16 +2,16 @@
   .contact__container.container
     .contact__title.title CONTACT
     .contact__list
-      .contact__list-basic
-        .contact__item
-          .contact__icon.fa.fa.fa-map-marker.icon
-          .contact__description.p2 Minsk/Orsha - Belarus
-        .contact__item
-          .contact__icon.fa.fa.fa-envelope-o.icon
-          a(href='mailto:almi90@list.ru').contact__description.p2 almi90@list.ru
-        .contact__item
+      .contact__list-extra
+        a.contact__item-extra.contact__item-extra_location(href='https://www.google.ru/maps/place/Minsk/' target="_blank")
+          .contact__icon.fa.fa-map-marker.icon
+          .contact__description-extra.p2 Location
+        a.contact__item-extra.contact__item-extra_email(href='mailto:almi90@list.ru' target="_blank")
+          .contact__icon.fa.fa-envelope-o.icon
+          .contact__description-extra.p2 E-mail
+        a.contact__item-extra.contact__item-extra_phone(href='tel:+375(25)604-56-90' target="_blank")
           .contact__icon.fa.fa-phone.icon
-          a(href='tel:+375(25)604-56-90').contact__description.p2 +375(25) 604-56-90
+          .contact__description-extra.p2 Phone
       hr
       .contact__list-extra
         a.contact__item-extra(href='./portfolio.html' target="_blank")
