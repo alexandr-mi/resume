@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="81a399a9-fe6a-4087-bf8a-12ff6c7cbfc2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/_modules/contact/contact.jade" afterPath="$PROJECT_DIR$/src/_modules/contact/contact.jade" />
-      <change beforePath="$PROJECT_DIR$/src/_modules/contact/contact.scss" afterPath="$PROJECT_DIR$/src/_modules/contact/contact.scss" />
-      <change beforePath="$PROJECT_DIR$/src/_modules/svg-container/svg-container.jade" afterPath="$PROJECT_DIR$/src/_modules/svg-container/svg-container.jade" />
-      <change beforePath="$PROJECT_DIR$/src/_scripts/components/animations.js" afterPath="$PROJECT_DIR$/src/_scripts/components/animations.js" />
+      <change beforePath="$PROJECT_DIR$/src/_layouts/base.jade" afterPath="$PROJECT_DIR$/src/_layouts/base.jade" />
+      <change beforePath="$PROJECT_DIR$/src/_layouts/mobile.jade" afterPath="$PROJECT_DIR$/src/_layouts/mobile.jade" />
+      <change beforePath="$PROJECT_DIR$/src/_layouts/portfolio.jade" afterPath="$PROJECT_DIR$/src/_layouts/portfolio.jade" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,11 +19,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="contact.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contact.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_modules/contact/contact.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="904">
-              <caret line="83" column="32" lean-forward="true" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
+            <state relative-caret-position="168">
+              <caret line="51" column="3" lean-forward="false" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_layouts/base.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mobile.jade" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/_layouts/mobile.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="19" column="111" lean-forward="false" selection-start-line="19" selection-start-column="111" selection-end-line="19" selection-end-column="111" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="portfolio.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_layouts/portfolio.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="19" column="98" lean-forward="false" selection-start-line="19" selection-start-column="98" selection-end-line="19" selection-end-column="98" />
               <folding />
             </state>
           </provider>
@@ -114,9 +143,6 @@
         <option value="$PROJECT_DIR$/src/_styles/main-portfolio.scss" />
         <option value="$PROJECT_DIR$/tmp/pages/vespa/js/main.js" />
         <option value="$PROJECT_DIR$/tmp/pages/vespa/index.html" />
-        <option value="$PROJECT_DIR$/src/_layouts/base.jade" />
-        <option value="$PROJECT_DIR$/src/_layouts/portfolio.jade" />
-        <option value="$PROJECT_DIR$/src/_layouts/mobile.jade" />
         <option value="$PROJECT_DIR$/src/_modules/education/educationData.jade" />
         <option value="$PROJECT_DIR$/src/_modules/education/mixins.jade" />
         <option value="$PROJECT_DIR$/src/_modules/education/education.jade" />
@@ -129,6 +155,9 @@
         <option value="$PROJECT_DIR$/src/_modules/contact/contact.jade" />
         <option value="$PROJECT_DIR$/src/_scripts/components/animations.js" />
         <option value="$PROJECT_DIR$/src/_modules/contact/contact.scss" />
+        <option value="$PROJECT_DIR$/src/_layouts/base.jade" />
+        <option value="$PROJECT_DIR$/src/_layouts/portfolio.jade" />
+        <option value="$PROJECT_DIR$/src/_layouts/mobile.jade" />
       </list>
     </option>
   </component>
@@ -184,32 +213,7 @@
               <item name="Portfolio_2.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="Portfolio_2.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Portfolio_2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Portfolio_2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Portfolio_2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Portfolio_2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Portfolio_2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Portfolio_2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Portfolio_2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Portfolio_2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="_layouts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -274,12 +278,12 @@
       <workItem from="1522391150489" duration="4713000" />
       <workItem from="1523077210453" duration="8225000" />
       <workItem from="1523182819445" duration="1806000" />
-      <workItem from="1523346514515" duration="3621000" />
+      <workItem from="1523346514515" duration="4343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108270000" />
+    <option name="totallyTimeSpent" value="108992000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1015" y="0" width="905" height="1080" extended-state="0" />
@@ -509,13 +513,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/favicon.png" />
-    <entry file="file://$PROJECT_DIR$/src/_layouts/base.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="72" lean-forward="false" selection-start-line="14" selection-start-column="72" selection-end-line="15" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/_modules/education/education.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -537,24 +534,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_layouts/mobile.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/_modules/education/data.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_layouts/portfolio.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -649,8 +632,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_modules/contact/contact.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="904">
-          <caret line="83" column="32" lean-forward="true" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
+        <state relative-caret-position="168">
+          <caret line="51" column="3" lean-forward="false" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_layouts/base.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_layouts/portfolio.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="19" column="98" lean-forward="false" selection-start-line="19" selection-start-column="98" selection-end-line="19" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_layouts/mobile.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="111" lean-forward="false" selection-start-line="19" selection-start-column="111" selection-end-line="19" selection-end-column="111" />
           <folding />
         </state>
       </provider>
